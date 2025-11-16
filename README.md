@@ -72,7 +72,7 @@ curl -X POST http://localhost:8000/predict \
 
 # 8. Building and Running Docker Container
 # Build Docker Image
-docker build -t stanford-cds-api .
+docker build -t admission .
 
 # Run Container 
-docker run -p 8000:8000 stanford-cds-api
+docker run -p 8000:8000 admission
